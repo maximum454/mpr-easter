@@ -4,6 +4,11 @@
 
 
 .btn-easter{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 18px 67px;
+	margin: 0 auto;
 	font-family: $font2;
 	font-style: normal;
 	font-weight: 900;
@@ -11,12 +16,14 @@
 	line-height: 27px;
 	text-align: center;
 	text-transform: lowercase;
+	text-decoration: none;
 	color: #FFFFFF;
 	transition: .3s ease;
 	background: rgb(80,183,255);
 	background: linear-gradient(0deg, rgba(80,183,255,1) 0%, rgba(93,243,255,1) 100%);
-	border-radius: 25px;
-	border: 2px solid rgba(93,243,255,1);
+	width: fit-content;
+	border-radius: 35px;
+	border-bottom: 2px solid rgba(93,243,255,1);
 	&:hover{
 		opacity: .7;
 		transition: .3s ease;

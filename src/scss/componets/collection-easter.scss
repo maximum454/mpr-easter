@@ -1,3 +1,47 @@
 .collection-easter{
-
+  margin-bottom: 42px;
+  &__header{
+    margin-bottom: 5px;
+  }
+  &__title{
+    position: relative;
+    font-family: $font1;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3CA4E9;
+    padding-top: 132px;
+    &:before{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      background-image: url("../img/decor-2.png");
+      background-repeat: no-repeat;
+      width: 315px;
+      height: 132px;
+    }
+  }
+  &__body{}
+  &__footer{
+    padding-bottom: 160px;
+    position: relative;
+    &:before{
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      background-image: url("../img/decor-2.png");
+      background-repeat: no-repeat;
+      width: 315px;
+      height: 132px;
+      transform: rotate(180deg);
+    }
+  }
 }
