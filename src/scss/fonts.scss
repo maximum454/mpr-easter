@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'Vezitsa';
+	src: url('../fonts/Vezitsa/Vezitsa.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/Vezitsa/Vezitsa.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+	url('../fonts/Vezitsa/Vezitsa.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Axiforma';
+	src: url('../fonts/Axiforma/Axiforma-SemiBold.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/Axiforma/Axiforma-SemiBold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+	url('../fonts/Axiforma/Axiforma-SemiBold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Axiforma';
+	src: url('../fonts/Axiforma/Axiforma-Black.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/Axiforma/Axiforma-Black.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+	url('../fonts/Axiforma/Axiforma-Black.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+}
+
+
+
+$font1: 'Vezitsa', sans-serif;
+$font2: 'Axiforma', serif;

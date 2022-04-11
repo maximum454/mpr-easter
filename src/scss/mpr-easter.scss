@@ -1,0 +1,56 @@
+@import "./mixin";
+@import "./fonts";
+
+body{
+
+}
+.main{
+	margin-top: -40px;
+	position: relative;
+}
+.main.container{
+	max-width: 1116px;
+}
+.breadcrumb{
+	display: none;
+}
+.footer{
+	margin-top: 0;
+}
+.title-galante{
+	font-family: $font2;
+	font-weight: 400;
+	font-size: 42px;
+	line-height: 48px;
+	color: #FFFFFF;
+	margin: 0 0 35px;
+	&--second{
+		color: #915A6D;
+	}
+}
+
+.btn-easter{
+	font-family: $font2;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 16px;
+	line-height: 27px;
+	text-align: center;
+	text-transform: lowercase;
+	color: #FFFFFF;
+	transition: .3s ease;
+	background: rgb(80,183,255);
+	background: linear-gradient(0deg, rgba(80,183,255,1) 0%, rgba(93,243,255,1) 100%);
+	border-radius: 25px;
+	border: 2px solid rgba(93,243,255,1);
+	&:hover{
+		opacity: .7;
+		transition: .3s ease;
+	}
+}
+
+@import "componets/hero-easter";
+@import "componets/collection-easter";
+@import "componets/kitchen-easter";
+@import "componets/serving-easter";
+@import "componets/footer-easter";
