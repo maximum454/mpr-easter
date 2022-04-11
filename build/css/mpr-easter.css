@@ -138,7 +138,7 @@
 }
 
 .collection-easter__header {
-  margin-bottom: 5px;
+  margin-bottom: 50px;
 }
 
 .collection-easter__title {
@@ -167,6 +167,10 @@
   width: 315px;
   height: 132px;
   pointer-events: none;
+}
+
+.collection-easter__body {
+  margin-bottom: 50px;
 }
 
 .collection-easter__footer {
