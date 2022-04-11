@@ -60,7 +60,7 @@
     margin-bottom: 46px;
   }
   &__figure{
-    margin: 0 0 74px;
+    margin: 0 auto 74px;
     text-align: center;
     img{
       max-width: 100%;
@@ -72,5 +72,66 @@
   }
   .container{
     max-width: 1140px;
+  }
+  @include r(767){
+    padding: 32px 0 25px;
+    &:before{
+      top: 0;
+      left: 0;
+      background-image: url("../img/kitchen-bg-mobile.png");
+      width: 346px;
+      height: 209px;
+    }
+    &__header{
+      margin-bottom: 20px;
+    }
+    &__title{
+
+      font-size: 20px;
+      line-height: 24px;
+      padding: 40px 0;
+      &:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-image: url("../img/decor-3.png");
+        background-repeat: no-repeat;
+        width: 90px;
+        height: 41px;
+      }
+      &:after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-image: url("../img/decor-3.png");
+        background-repeat: no-repeat;
+        width: 90px;
+        height: 41px;
+        transform: rotate(180deg);
+      }
+    }
+    &__item{
+      flex:1 0 100%;
+      margin-bottom: 40px;
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+    &__name{
+      font-size: 20px;
+      line-height: 32px;
+      margin-bottom: 30px;
+    }
+    &__figure{
+      text-align: center;
+      max-width: 184px;
+      margin-bottom: 30px;
+    }
   }
 }

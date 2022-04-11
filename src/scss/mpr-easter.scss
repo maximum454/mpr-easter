@@ -30,6 +30,14 @@
 		transition: .3s ease;
 	}
 }
+@include r(767){
+	.btn-easter{
+		padding: 11px 18px;
+		max-width: 188px;
+		font-size: 13px;
+		line-height: 22px;
+	}
+}
 
 @import "componets/hero-easter";
 @import "componets/collection-easter";
