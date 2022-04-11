@@ -1,33 +1,7 @@
 @import "./mixin";
 @import "./fonts";
 
-body{
 
-}
-.main{
-	margin-top: -40px;
-	position: relative;
-}
-.main.container{
-	max-width: 1116px;
-}
-.breadcrumb{
-	display: none;
-}
-.footer{
-	margin-top: 0;
-}
-.title-galante{
-	font-family: $font2;
-	font-weight: 400;
-	font-size: 42px;
-	line-height: 48px;
-	color: #FFFFFF;
-	margin: 0 0 35px;
-	&--second{
-		color: #915A6D;
-	}
-}
 
 .btn-easter{
 	font-family: $font2;
