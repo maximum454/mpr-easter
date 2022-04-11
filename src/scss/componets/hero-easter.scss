@@ -2,14 +2,14 @@
   background-image: url("../img/hero-easter-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 70px 0 56px;
+  padding: 66px 0 56px;
   &__body{
     position: relative;
     &:before{
       content: '';
       position: absolute;
       top: -66px;
-      left: -90px;
+      left: -100px;
       background-image: url("../img/decor-1.png");
       width: 167px;
       height: 122px;
@@ -42,6 +42,6 @@
     margin: 0;
   }
   .container{
-    max-width: 1118px;
+    max-width: 1140px;
   }
 }

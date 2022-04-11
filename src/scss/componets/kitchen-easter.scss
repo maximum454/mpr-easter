@@ -1,7 +1,7 @@
 .kitchen-easter{
   background: #EEEDF2;
   position: relative;
-  padding: 114px 0 86px;
+  padding: 136px 0 86px;
   &:before{
     content: '';
     position: absolute;
@@ -13,7 +13,7 @@
     height: 356px;
   }
   &__header{
-    margin-bottom: 61px;
+    margin-bottom: 77px;
   }
   &__title{
     font-family: $font1;
@@ -24,7 +24,7 @@
     text-transform: uppercase;
     color: #3CA4E9;
     position: relative;
-    padding: 50px 0;
+    padding: 40px 0;
     margin: 0;
     &:before{
       content: '';
@@ -41,7 +41,7 @@
     &:after{
       content: '';
       position: absolute;
-      bottom: -22px;
+      bottom: -17px;
       left: 0;
       right: 0;
       margin: auto;
@@ -67,9 +67,8 @@
     font-size: 24px;
     line-height: 39px;
     text-align: center;
-    text-transform: capitalize;
     color: #3065A4;
-    margin-bottom: 11px;
+    margin-bottom: 46px;
   }
   &__figure{
     margin: 0 0 74px;
@@ -83,6 +82,6 @@
     }
   }
   .container{
-    max-width: 1118px;
+    max-width: 1140px;
   }
 }

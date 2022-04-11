@@ -7,8 +7,10 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 18px 67px;
+	padding: 18px 20px;
 	margin: 0 auto;
+	width: 100%;
+	max-width: 261px;
 	font-family: $font2;
 	font-style: normal;
 	font-weight: 900;
@@ -21,7 +23,6 @@
 	transition: .3s ease;
 	background: rgb(80,183,255);
 	background: linear-gradient(0deg, rgba(80,183,255,1) 0%, rgba(93,243,255,1) 100%);
-	width: fit-content;
 	border-radius: 35px;
 	border-bottom: 2px solid rgba(93,243,255,1);
 	&:hover{
