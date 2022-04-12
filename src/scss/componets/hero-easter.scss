@@ -1,9 +1,20 @@
 .hero-easter{
-  background-image: url("../img/hero-easter-bg.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   padding: 66px 0 56px;
+  position: relative;
+  &:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 0;
+    transform: translate(-50%,0);
+    background-image: url("../img/hero-easter-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100%;
+  }
   &__body{
     position: relative;
     &:before{
